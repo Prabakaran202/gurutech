@@ -18,5 +18,5 @@ urlpatterns=[
     path('products/<str:id>/edit',ProductEditView.as_view(),name='edit-product'),
     path('products/<str:id>/add_review',ReviewAddView.as_view(),name='add-review'),
     path('my_reviews',ReviewListView.as_view(),name='my-reviews'),
-    path('my_reviews/<int:id>',ReviewDetailView.as_view(),name='my-reviews-detail')
+    path('my_reviews/<str:id>',ReviewDetailView.as_view(),name='my-reviews-detail')
 ]

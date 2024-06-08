@@ -159,5 +159,5 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     
-    "https://gurutech-seven.vercel.app/",
+    "https://gurutech-seven.vercel.app",
 ]
